@@ -1,0 +1,159 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+*{
+    font-family:"Dongle",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.3;
+    color: rgb(89, 245, 180);
+    list-style-type: none;
+}
+fieldset{
+    border: 0px;
+}
+legend{
+    margin-left: 15px;
+}
+body{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+
+}
+.bgImage{
+    
+    opacity: 0.85;
+    position : absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    
+}
+#loginForm{
+    min-width: 400px;
+}
+#loginText{
+    background-color: rgba(246, 245, 243, 0.8);
+    width: 200px;
+    font-size: 28px;
+    color: black;
+    border: 2px solid brown;
+    border-radius: 20px;
+    margin-left : 0px;
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 5px 40px;
+}
+#loginBtn{
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    text-align:end;
+    font-size: 30px;
+    padding: 3px 3px 0px 3px;
+    margin-left: 10px;
+}
+#mini_wrap{
+    max-width: 400px;
+}
+#clock{
+    min-width: 350px;
+    font-size: 116px;
+    color: aliceblue;
+    margin: 0 auto;
+    z-index: 10;
+    flex-grow: 1;
+
+}
+.hidden{
+    display: none;
+}
+
+
+#quotes{
+    justify-content: end;
+    font-size: 32px;
+    font-weight: 600;
+    align-self: flex-end;
+}
+#quotes span{
+    font-family :sans-serif;
+    color: rgb(0, 5, 1);
+    font-weight: 900;
+    font-size: 10px;
+    
+}
+#todo_form{
+    font-size: 24px;
+}
+#todo_form input{
+    background-color: rgb(245, 162, 60,0.8);
+    width: 200px;
+    font-size: 24px;
+    color: black;
+    border: 2px solid brown;
+    border-radius: 20px;
+    margin-left : 0px;
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 5px 40px;
+}
+#todo_list {
+    position: absolute;
+    font-size: 24px;
+    font-weight: 900;;
+    list-style-type: none;
+}
+#todo-list span{
+    display: inline-block;
+    background-color: rgb(243, 94, 94,0.8);
+    border-radius: 20px;
+    color: rgb(156, 253, 0);
+    font-size: 28px;
+    padding: 0px 60px;
+    margin-top: 8px;
+    border: 2px solid salmon;
+    box-sizing: border-box;
+    
+}
+#quotoWeatherWrap{
+    height: 60%;
+}
+#weather{
+    font-weight: 900;
+    float: right;
+    width: 100px;
+    font-size: 18px;
+    color: whitesmoke;
+    align-self: flex-start;
+}
+#weather span{
+    color: rgb(255, 255, 255);
+}
+
+#greeting{
+    min-width: 300px;
+    width: 300px;
+    font-size: 64px;
+    line-height: 0.9;
+    color: aliceblue;
+    align-self:center;
+}
+#todo-list li button{
+    background-color: #fff;
+    border-radius: 10px;
+    text-align:end;
+    font-size: 14px;
+    padding: 3px 3px 0px 3px;
+    margin-left: 10px;
+}
